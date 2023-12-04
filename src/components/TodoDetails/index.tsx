@@ -101,6 +101,7 @@ const TodoDetails = () => {
         content: content,
       });
     }
+    setError({ type: '', message: '' });
   };
 
   const handleDeleteTodo = () => {
